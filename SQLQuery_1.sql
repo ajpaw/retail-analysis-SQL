@@ -1,6 +1,6 @@
 ------XX ----- SQL RETAIL DATA CASE STUDY  -----XX------ Name: Arjun Pawar
 
-------XX ----- DATA PREPARATION QUESTIONS -----XX------
+------XX ----- DATA PREPARATION -----XX------
 
 --Q1: 
 SELECT COUNT(*) FROM Transactions
@@ -54,7 +54,7 @@ WHERE prod_subcat = 'DIY'
 ---> IT BELONGS TO BOOKS
 
 
-------XX ----- DATA ANALYSIS QUESTIONS -----XX------
+------XX ----- DATA ANALYSIS  -----XX------
 
 --Q1:
 SELECT TOP 1 Store_type, COUNT(transaction_id)
